@@ -50,3 +50,16 @@ body{
     font-size: 20px;
     margin: 0;
   }
+
+  @media (min-width: 576px) {
+    .button {
+      margin: 20px 0 20px 0;
+    }
+    .player {
+        font-size: x-large;
+        margin: 15px 0 0 0;
+      }
+      .current {
+        margin-top: 120px;
+      }
+  }
