@@ -1,0 +1,52 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #eee;
+    border: 10px solid #a4733e;
+}
+
+/*Button*/
+.button {
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: black;
+    font-size: larger;
+    transition-property: font-size;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+  }
+
+  /*Players*/
+  .players {
+    font-weight: 300;
+    font-size: large;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+
+  /*Scores*/
+
+  .score {
+    font-weight: 200;
+    font-size: 50px;
+    margin: 0;
+  }
+  .current {
+    background-color: red;
+    width: 100px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+  }
+  .current-label {
+    font-weight: 300;
+    font-size: 10px;
+    margin-top: 0;
+  }
+  
+  .current-score {
+    font-size: 20px;
+    margin: 0;
+  }
