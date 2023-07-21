@@ -17,17 +17,17 @@
         <ion-row>
           <ion-col>
             <ion-text class="ion-text-center ion-text-uppercase">
-              <p class="button">new game</p>
+              <p id="new-game" class="button">new game</p>
             </ion-text>
           </ion-col>
         </ion-row>
         <ion-row>
           <ion-col size-xs="12" size-sm="5">
             <ion-text class="ion-text-center ion-text-uppercase">
-              <p class="players name-0">Player 1</p>
+              <p class="players name-0"><span class="player--0 active-player"></span>Player 1</p>
             </ion-text>
             <ion-text class="ion-text-center" color="danger">
-              <p class="score">0</p>
+              <p id="score-0" class="score">0</p>
             </ion-text>
             <ion-row>
               <ion-col>
@@ -36,7 +36,7 @@
                     <p class="current-label">current</p>
                   </ion-text>
                   <ion-text class="ion-text-center" color="light">
-                    <p class="current-score">0</p>
+                    <p id="current-0" class="current-score">0</p>
                   </ion-text>
                 </div>
               </ion-col>
@@ -44,23 +44,22 @@
           </ion-col>
           <ion-col size-sm="2">
             <ion-row id="dice" class="ion-justify-content-center">
-              <!-- ---------Render the image of the dice here ----------------------------------->
             </ion-row>
             <div class="action">
               <ion-text class="ion-text-center ion-text-uppercase">
-                <p class="button">roll dice</p>
+                <p id="roll" class="button">roll dice</p>
               </ion-text>
               <ion-text class="ion-text-center ion-text-uppercase">
-                <p  class="button">hold</p>
+                <p id="hold" class="button">hold</p>
               </ion-text>
             </div>
           </ion-col>
           <ion-col size-xs="12" size-sm="5">
             <ion-text class="ion-text-center ion-text-uppercase">
-              <p class="players name-1">Player 2</p>
+              <p class="players name-1"><span class="player--1"></span>Player 2</p>
             </ion-text>
             <ion-text class="ion-text-center" color="danger">
-              <p class="score">0</p>
+              <p id="score-1" class="score">0</p>
             </ion-text>
             <ion-row>
               <ion-col>
@@ -69,7 +68,7 @@
                     <p class="current-label">current</p>
                   </ion-text>
                   <ion-text class="ion-text-center" color="light">
-                    <p  class="current-score">0</p>
+                    <p  id="current-1" class="current-score">0</p>
                   </ion-text>
                 </div>
               </ion-col>
