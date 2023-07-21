@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+      <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <title>Dice Game</title>
+    </head>
+    <body>
+      <ion-grid>
+        <ion-row> <!--The first Row for new game button-->
+          <ion-col>
+            <ion-text>
+              <p>New game</p>
+            </ion-text>
+          </ion-col>
+        </ion-row>
+        <ion-row> <!--The second row to contain the two players plus the dice and buttons roll and hold-->
+          <ion-col>
+            <ion-text>
+              <p>Player 1</p>
+            </ion-text>
+            <ion-text>
+              <p>0</p>
+            </ion-text>
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-text>
+                    <p>current</p>
+                  </ion-text>
+                  <ion-text>
+                    <p>0</p>
+                  </ion-text>
+                </div>
+              </ion-col>
+              <ion-col>
+                <ion-row>
+
+                </ion-row>
+                <div>
+                  <ion-text>
+                    <p>roll dice</p>
+                  </ion-text>
+                  <ion-text>
+                    <p>hold</p>
+                  </ion-text>
+                </div>
+              </ion-col>
+              <ion-col>
+                <ion-text>
+                  <p>Player 2</p>
+                </ion-text>
+                <ion-text>
+                  <p>0</p>
+                </ion-text>
+                <ion-row>
+                  <ion-col>
+                    <div>
+                      <ion-text>
+                        <p>current</p>
+                      </ion-text>
+                      <ion-text>
+                        <p>0</p>
+                      </ion-text>
+                    </div>
+                  </ion-col>
+                </ion-row>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </body>
+  </html>
