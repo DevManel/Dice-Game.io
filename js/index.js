@@ -15,6 +15,10 @@ const hold = document.querySelector("#hold");
 // Get the dice element
 const dice = document.querySelector("#dice");
 
+  // Get the players
+  const player0 = document.querySelector(".player--0");
+  const player1 = document.querySelector(".player--1");
+
 // function to Roll the dice and display the round score
 const rollDice = function () {
     // Create a random number
@@ -42,7 +46,7 @@ const switchPlayer = function () {
     player1.classList.toggle("active-player");
   };
 
-  // Hol the score
+  // Hold the score
 const holdScore = function () {
     // add current score
     scores[activePlayer] += roundScore;
@@ -55,7 +59,7 @@ const holdScore = function () {
       document.querySelector(`.name-${activePlayer}`).innerHTML = `<p>winner !</p>`;
   
     } else {
-      // Change player
+      // switch player
       switchPlayer();
     }
   };

@@ -18,7 +18,23 @@ body{
     transition-delay: 0s;
     transition-timing-function: ease;
   }
-
+  /*Icons*/
+  .icons {
+    width: 30px;
+    position: relative;
+    top: 5px;
+    padding-right: 8px;
+  }
+  .icon-replay {
+    content: url(../images/icons/add-circle-outline.svg);
+  }
+  .icon-play {
+    content: url(../images/icons/reload.svg);
+  }
+  
+  .icon-hold {
+    content: url(../images/icons/ios-download-outline.svg);
+  }
   /*Dice*/
   .dice {
     max-width: 80px;
@@ -35,7 +51,7 @@ body{
     margin: 0;
   }
   .active-player {
-    content: url(./images/icons/circle-fill.svg);
+    content: url(../images/icons/circle-fill.svg);
     width: 13px;
     margin-left: 10px;
     padding-bottom: 2px;
